@@ -1,0 +1,87 @@
+@media (max-width: 990px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 20px;
+    }
+    .read__text{
+        height: 50vh;
+    }
+    .contact__content{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 770px){
+    .read__title{
+        text-align: center;
+    }
+    .read__description{
+        text-align: center;
+    }
+    .about__us-description{
+        font-size: 13px;
+    }
+    .people__up{
+        bottom: 0;
+    }
+    .team__header{
+        margin-bottom: 75px;
+    }
+    .service__text{
+        margin-bottom: 70px;
+    }
+    .service__content{
+        margin-bottom: 30px;
+    }
+    .service__content{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 500px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .read__title{
+        font-size: 30px;
+    }
+    .read__description{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 13px;
+        padding: 20px 40px;
+    }
+    .arrow{
+        margin-bottom: 25px;
+    }
+    .arrow__img{
+        height: 45px;
+    }
+    .about__us-title{
+        font-size: 35px;
+    }
+    .about__us-description{
+        font-size: 13px;
+    }
+    .team__title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .team__description{
+        font-size: 14px;
+    }
+    .service__btn{
+        font-size: 15px;
+        padding: 20px 35px;
+    }
+    .service__content-name{
+        font-size: 25px;
+    }
+    .service__content-ct{
+        font-size: 13px;
+    }
+}
+@media (max-width: 500px){
+    .about__us-img{
+        height: 1500px;
+    }
+}

@@ -1,0 +1,13 @@
+@import "colors";
+
+@mixin title {
+    color: $grey;
+    font-family: 'Merriweather', serif;
+    font-size: 34px;
+}
+@mixin description {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: $text;
+}
