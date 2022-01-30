@@ -1,2 +1,414 @@
-.navbar-dark .navbar-nav .nav-link{color:#b2b2b2;margin-right:45px;font-family:'Roboto', sans-serif;font-size:17px;margin:0}.navbar-dark .navbar-nav .nav-link:hover{color:black;-webkit-transition:1s;transition:1s}.nav-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-right:20px;margin-left:20px}.navbar-brand{margin-right:45px}#navbarContent{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.read__more{height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.read__title{font-family:'Merriweather', serif;font-size:44px}.read__description{font-family:'Merriweather', serif;font-style:italic;font-size:16px;color:#b2b2b2;margin-bottom:45px}.btn{font-family:'Merriweather', serif;font-size:16px;font-weight:bold;border-radius:0;padding:25px 55px;-webkit-transition:1s;transition:1s}.arrow{margin-bottom:85px}.about__us{height:1420px}.about__us-bg{width:100%;height:100px;position:absolute;z-index:-1}.about__us-img{width:100%;height:1420px;-o-object-fit:cover;object-fit:cover}.about__us .corection__first-post{margin-top:150px}.about__us .corection__two-post{margin-bottom:110px}.about__us .corection__three-post{margin-bottom:80px}.about__us-title{font-family:'Montserrat', sans-serif;font-size:45px;font-weight:bold}.about__us-description{font-size:15px;font-family:'Montserrat', sans-serif;color:#b7b7b7}.team__title{font-family:'Merriweather', serif;font-size:34px}.team__description{font-family:'Merriweather', serif;font-style:italic;font-size:16px;color:#b7b7b7}.team__header{margin-bottom:220px}.team__people{margin-bottom:88px}.team__people-img{margin-bottom:30px}.team__people-name{color:#464646;font-family:'Merriweather', serif;font-size:24px}.team__people-ct{font-family:'Merriweather', serif;font-style:italic;font-size:13px;color:#b7b7b7}.team__border-img{width:100%}.people__up{position:relative;bottom:100px}.twi{margin-right:14px}.service{padding-top:40px;background-color:#181818}.service__text{margin-bottom:217px}.service__content-img{margin-bottom:40px}.service__content-name{color:#464646;font-family:'Merriweather', serif;font-size:34px;color:#FFFFFF}.service__content-ct{font-family:'Merriweather', serif;font-style:italic;font-size:13px;color:#b7b7b7;color:#383838}.service__btn{padding:26px 44px;border-color:#FFFFFF;font-weight:bold;-webkit-transition:1s;transition:1s}.contact__inp{margin-bottom:150px}.contact__us{padding-top:120px}.contact__title{color:#464646;font-family:'Merriweather', serif;font-size:34px;color:#181818;font-weight:lighter}.contact__description{font-family:'Merriweather', serif;font-style:italic;font-size:13px;color:#b7b7b7}.contact__text{margin-bottom:60px}.contact__img{margin-bottom:16px}.contact__content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:125px;margin-bottom:150px}.contact__info{font-family:'Merriweather', serif;font-style:italic;font-size:13px;color:#b7b7b7;text-decoration:none}.contact__info:hover{color:black;-webkit-transition:1s;transition:1s}.contact__btn{background-color:black;border-color:black;color:#FFFFFF;font-weight:bold;padding-top:20px;padding-bottom:20px}.contact__btn:hover{color:black;background-color:#FFFFFF;border-color:black;-webkit-transition:1s;transition:1s}.input{width:100%;margin-bottom:20px;text-align:center}.licensed__text{font-family:'Merriweather', serif;font-size:14px;color:#3b3b3b}@media (max-width: 990px){.navbar-dark .navbar-nav .nav-link{font-size:20px}.read__text{height:50vh}.contact__content{margin-bottom:50px}}@media (max-width: 770px){.read__title{text-align:center}.read__description{text-align:center}.about__us-description{font-size:13px}.people__up{bottom:0}.team__header{margin-bottom:75px}.service__text{margin-bottom:70px}.service__content{margin-bottom:30px}.service__content{margin-bottom:20px}}@media (max-width: 500px){.navbar-dark .navbar-nav .nav-link{font-size:17px;margin-bottom:20px}.read__title{font-size:30px}.read__description{font-size:13px}.btn{font-size:13px;padding:20px 40px}.arrow{margin-bottom:25px}.arrow__img{height:45px}.about__us-title{font-size:35px}.about__us-description{font-size:13px}.team__title{font-size:30px;text-align:center}.team__description{font-size:14px}.service__btn{font-size:15px;padding:20px 35px}.service__content-name{font-size:25px}.service__content-ct{font-size:13px}}@media (max-width: 500px){.about__us-img{height:1500px}}
+.navbar-dark .navbar-nav .nav-link {
+  color: #b2b2b2;
+  margin-right: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.navbar-brand {
+  margin-right: 45px;
+}
+
+#navbarContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.read__more {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.read__title {
+  font-family: 'Merriweather', serif;
+  font-size: 44px;
+}
+
+.read__description {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #b2b2b2;
+  margin-bottom: 45px;
+}
+
+.btn {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 25px 55px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.arrow {
+  position: relative;
+  margin-bottom: 85px;
+  -webkit-animation-name: arrow;
+          animation-name: arrow;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -30px;
+  }
+}
+
+@keyframes arrow {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -30px;
+  }
+}
+
+.about__us {
+  height: 1420px;
+}
+
+.about__us-bg {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  z-index: -1;
+}
+
+.about__us-img {
+  width: 100%;
+  height: 1420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about__us .corection__first-post {
+  margin-top: 150px;
+}
+
+.about__us .corection__two-post {
+  margin-bottom: 110px;
+}
+
+.about__us .corection__three-post {
+  margin-bottom: 80px;
+}
+
+.about__us-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.about__us-description {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #b7b7b7;
+}
+
+.team__title {
+  font-family: 'Merriweather', serif;
+  font-size: 34px;
+}
+
+.team__description {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #b7b7b7;
+}
+
+.team__header {
+  margin-bottom: 220px;
+}
+
+.team__people {
+  margin-bottom: 88px;
+}
+
+.team__people-img {
+  margin-bottom: 30px;
+}
+
+.team__people-name {
+  color: #464646;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+
+.team__people-ct {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #b7b7b7;
+}
+
+.team__border-img {
+  width: 100%;
+}
+
+.people__up {
+  position: relative;
+  bottom: 100px;
+}
+
+.twi {
+  margin-right: 14px;
+}
+
+.service {
+  padding-top: 40px;
+  background-color: #181818;
+}
+
+.service__text {
+  margin-bottom: 217px;
+}
+
+.service__content-img {
+  margin-bottom: 40px;
+}
+
+.service__content-name {
+  color: #464646;
+  font-family: 'Merriweather', serif;
+  font-size: 34px;
+  color: #FFFFFF;
+}
+
+.service__content-ct {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #b7b7b7;
+  color: #383838;
+}
+
+.service__btn {
+  padding: 26px 44px;
+  border-color: #FFFFFF;
+  font-weight: bold;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.contact__inp {
+  margin-bottom: 150px;
+}
+
+.contact__us {
+  padding-top: 120px;
+}
+
+.contact__title {
+  color: #464646;
+  font-family: 'Merriweather', serif;
+  font-size: 34px;
+  color: #181818;
+  font-weight: lighter;
+}
+
+.contact__description {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #b7b7b7;
+}
+
+.contact__text {
+  margin-bottom: 60px;
+}
+
+.contact__img {
+  margin-bottom: 16px;
+}
+
+.contact__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 125px;
+  margin-bottom: 150px;
+}
+
+.contact__info {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #b7b7b7;
+  text-decoration: none;
+}
+
+.contact__info:hover {
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.contact__btn {
+  background-color: black;
+  border-color: black;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact__btn:hover {
+  color: black;
+  background-color: #FFFFFF;
+  border-color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.licensed__text {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  color: #3b3b3b;
+}
+
+@media (max-width: 990px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+  .read__text {
+    height: 50vh;
+  }
+  .contact__content {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 770px) {
+  .read__title {
+    text-align: center;
+  }
+  .read__description {
+    text-align: center;
+  }
+  .about__us-description {
+    font-size: 13px;
+  }
+  .people__up {
+    bottom: 0;
+  }
+  .team__header {
+    margin-bottom: 75px;
+  }
+  .service__text {
+    margin-bottom: 70px;
+  }
+  .service__content {
+    margin-bottom: 30px;
+  }
+  .service__content {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .read__title {
+    font-size: 30px;
+  }
+  .read__description {
+    font-size: 13px;
+  }
+  .btn {
+    font-size: 13px;
+    padding: 20px 40px;
+  }
+  .arrow {
+    margin-bottom: 25px;
+  }
+  .arrow__img {
+    height: 45px;
+  }
+  .about__us-title {
+    font-size: 35px;
+  }
+  .about__us-description {
+    font-size: 13px;
+  }
+  .team__title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .team__description {
+    font-size: 14px;
+  }
+  .service__btn {
+    font-size: 15px;
+    padding: 20px 35px;
+  }
+  .service__content-name {
+    font-size: 25px;
+  }
+  .service__content-ct {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about__us-img {
+    height: 1500px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

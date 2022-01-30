@@ -53,8 +53,22 @@
     transition: 1s;
 }
 .arrow{
+    position: relative;
     margin-bottom: 85px;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+@keyframes arrow{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -30px;
+    }
+}
+
 .about__us{
     height: 1420px;
     &-bg{
