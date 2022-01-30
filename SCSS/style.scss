@@ -26,8 +26,11 @@
 }
 
 .read__{
-    &text{
+    &more{
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     &title{
         font-family: 'Merriweather', serif;
